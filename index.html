@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='author' content='Tim Phillips'>
+    <meta name='description' content='Converts english to pig latin.'>
+
+    <meta property='og:image' content='favicon.png'>
+    <meta property='og:description' content='Converts english to pig latin.'>
+
+    <meta property='og:title' content='Pig Latin Generator'>
+    <title>Pig Latin Generator</title>
+
+    <link rel='stylesheet' href='style.css'>
+    <link rel='shortcut icon' href='favicon.png' type='image/x-icon'>
+</head>
+<body>
+    <h1>Pig Latin Generator</h1>
+    <div class="boxes">
+        <textarea name="input" id="input" cols="30" rows="10" oninput="oink()" placeholder="input"></textarea>
+        <textarea readonly name="output" id="output" cols="30" rows="10" placeholder="output"></textarea>
+    </div>
+    <label for="multiculturalism" title="Change the way that the pig latin is generated."><input type="checkbox" name="multiculturalism" id="multiculturalism"> Multiculturalism</label>
+
+    <script src="main.js"></script>
+</body>
+</html>
